@@ -29,4 +29,17 @@
 
 #Agenda: (EDA And Model Training)
 1. DATASET: Student Process Indicator.
-2.
+2. Load Data Set, EDA and Model training file.
+3. In Model_trainning we perform one hot encoding as there are very less no. of features. so we can convert into numerical features and later on we can apply Normalization, Standardization.
+4. In utils folder we start modular coding based on these files (Model_trainning), In data ingestion file we'll done train test split.
+
+
+
+-> Tutorial 4: https://www.youtube.com/watch?v=_0v1UK7smBc&t=22s
+
+#Agenda: Data Ingestion Implementation Line By Line
+1. In data Ingestion we read the code and split  the data into train & test.
+2. In data_Ingestion file we create class dataingestionconfig, this class is used to store input variables of data.
+3. Here also we use decorator named as @dataclass so that we can directly definew our class variables like train_data_path and test_data_path.
+4. initiate_data_ingestion function is used when data is stored in databases and we have to read data from db.
+ 
